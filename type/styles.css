@@ -1,0 +1,94 @@
+/* Type */
+
+body {
+	background-color: #ffdaea;
+	color: #686365;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.focus {
+	color: #fd887c;
+}
+
+.other-font {
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 90px;
+} 
+
+.other-color {
+	color: #f50f5d;
+	-webkit-text-emphasis: dot
+}
+
+h1 {
+	color: #f8c32c;
+	font-size: 75px;
+	margin-left: 160px;
+	font:menu;
+}
+
+p {
+	margin-left: 45px;
+}
+
+
+h2 {
+    opacity: 0.3;
+    color: #eda9c8;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    font-size: 1.8em;
+}
+
+h3 {
+	position: absolute;
+    opacity: 0.6;
+    margin: 0px;
+    transform: rotate(90deg);
+    top: 60px;
+    left: -225px;
+    font-size: 5em;
+    color: #cabcc3;
+    font-family: serif;
+}
+
+h4 {
+	        line-height: 0;
+    position: absolute;
+    margin: 0px;
+    bottom: 0;
+    transform: rotate(281deg);
+    bottom: -74px;
+    right: -153px;
+    font-size: 4em;
+    font-family: serif;
+    color: white;
+    opacity: 0.6;
+}
+
+h5 {
+	line-height: 0;
+    position: absolute;
+    margin: 0;
+    bottom: -347px;
+    left: -160px;
+    font-size: 11em;
+    font-family: serif;
+    opacity: 0.23;
+    transform: rotateY(47deg);
+}
+
+h6 {
+	    color: #f10748;
+    font-family: serif;
+    position: absolute;
+    margin: -217px;
+    font-size: 18em;
+    opacity: 0.6;
+    transform: skew(10deg, -14deg);
+}
