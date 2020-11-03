@@ -1,0 +1,84 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(235,199,248);
+	background: linear-gradient(45deg, rgba(235,199,248,1) 0%, rgba(227,198,166,1) 100%);
+	background-image: url(img/floralbackground.jpg);
+	background-size: 100%;
+	background-origin: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: brown;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 14px;
+	margin: 1em;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 50px;
+	text-align: center;
+	color: #7c6b55;
+	background-color: white;
+	border: groove;
+	border-color: brown;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px dotted;
+  border-color: white;
+}
+
+figcaption {
+	width: 400px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 15px;
+	background-color: white;
+	opacity: 0.8;
+}
+
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.img-large {
+	width: 400px;
+	height: 400px;
+}
+
+.img-medium {
+	width: 250px;
+	height: 250px;
+}
+
+.img-small {
+	width: 100px;
+	height: 100px;
+}
