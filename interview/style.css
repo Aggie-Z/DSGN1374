@@ -1,0 +1,50 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fdf6e8;
+	background-image: url(img/backgrounddd.jpg);
+	background-size: 100%;
+	background-origin: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #6d5e57;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	text-align:center;
+	margin-left: 10em;
+	margin-right: 10em;
+
+}
+
+h1 {
+	color: brown;
+	background-color: white;
+	opacity:0.65;
+	margin-bottom: 50px;
+}
+
+p {
+	background-color: white;
+	opacity: 0.75;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.question{
+	color: #684030;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.answer{
+	color:#cf5e85;
+	font-style:normal;
+	font-size: 15px;
+}
